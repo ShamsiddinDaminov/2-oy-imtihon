@@ -1,0 +1,122 @@
+.hero{
+    max-width: 1440px;
+    background-image: url(/img/fon.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    margin: 0 auto;
+    background-size: cover;
+}
+.hero::after{
+    content: '';
+    position: absolute;
+    background-image: url(/img/korsat.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 490px;
+    height: 170px;
+    margin-top: -110px;
+    margin-left: 690px;
+}
+.hero::before{
+    content: '';
+    width: 202px;
+    height: 15px;
+    margin-top: 340px;
+    position: absolute;
+    background-color: rgba(252, 183, 43, 1);
+}
+.hero_title{
+    width: 500px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+    padding-top: 153px;
+    margin-left: 165px;
+}
+.hero__text{
+    width: 405px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-left: 257px;
+}
+.hero_btn{
+    margin-left: 258px;
+    margin-top: 40px;
+}
+.hero_buton{
+    padding: 10px 30px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+     text-align: center;
+    color: #FFFFFF;
+    background-color: rgba(252, 183, 43, 1);
+}
+.hero_buton:hover{
+    background-color: rgb(67, 45, 0);
+}
+
+@media screen and (max-width:968px){
+        .hero{
+            max-width: 768px;
+        }
+        .hero::before{
+            display: none;
+        }
+        .hero_title{
+            max-width: 574px;
+            text-align: center;
+            margin-left: 97px;
+        }
+        .hero::after{
+            right: 50%;
+            margin-top: 56px;
+        }
+        .hero__text{
+            width: 500px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-left: 97px;
+        }
+}
+@media screen and (max-width:375px){
+    .hero{
+        max-width: 375px;
+    }
+    .hero_body{
+        display: block;
+    }
+    .hero_title{
+        width: 311px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -1.78571px;
+        color: #FFFFFF;
+        margin-left: 20px;
+        padding-top: 115px;
+    }
+    .hero__text{
+        width: 311px;
+        text-align: center;
+        margin-left: 25px;
+    }
+    .hero_btn{
+        margin-left: 100px;
+        margin-top: 34px;
+    }
+}

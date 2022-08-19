@@ -1,0 +1,128 @@
+.locate_lest{
+    padding-top: 160px;
+}
+.locate_line{
+    max-width: 997px;
+    height: 10px;
+    background-color: rgba(229, 236, 244, 1);
+}
+.locate__line_img{
+    display: flex;
+    gap: 284px;
+    margin-top: -50px;
+}
+.locate_img1{
+    margin-left: 165px;
+}
+.pick_lest{
+    display: flex;
+}
+.pick__tg{
+    margin-left: 165px;
+    margin-top: 40px;
+}
+.pick_title1{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+     color: #495567;
+}
+.pick_text1{
+    width: 350px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    margin-top: 27px;
+}
+.pick_rigth{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.pick__rigth_title{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+     color: #495567;
+}
+.pick_rigth_text{
+    width: 350px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    margin-top: 27px;
+}
+@media screen and(max-width:968px){
+    .locate_lest{
+        transform: rotate(90deg);
+        margin-top: 432px;
+        margin-left: -312px;
+    }
+    .locate__line_img{
+        gap: 74px;
+    }
+    .locate_line{
+        width: 512px;
+    }
+    .pick_lest{
+        display: block;
+        margin-left: 30%;
+        margin-top: -68%;
+    }
+    .pick__tg{
+        margin-left: 70px;
+    }
+    .pick_text1{
+        margin-top: 8px;
+    }
+    .pick_rigth{
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    .pick_rigth_text{
+        margin-top: 8px;
+    }
+}
+@media screen and(max-width:375px){
+    .locate_lest{
+        display: none;
+    }
+    .pick_lest{
+        margin-top: 120px;
+       margin-left: 30px;
+    }
+    .pick__tg{
+        max-width: 311px;
+    }
+    .pick_title1{
+      max-width: 311px;
+        margin-left: -80px;
+        text-align: center;
+    }
+    .pick_text1{
+        max-width: 356px;
+        text-align: center;
+        margin-left: -90px;
+    }
+    .pick__rigth_title{
+        max-width: 300px;
+        margin-left: -80px;
+        text-align: center;
+    }
+    .pick_rigth_text{
+        max-width: 356px;
+        text-align: center;
+        margin-left: -90px;
+    }
+}
